@@ -15,7 +15,7 @@ std::vector<std::string> split(const std::string& input, char delimiter) {
   std::vector<std::string> tokens;
   std::string token = "";
   bool ctrl = false; //true se esta atualmente lendo um token
-  for (int i = 0; i < input.size(); i++) {
+  for (unsigned int i = 0; i < input.size(); i++) {
     if (ctrl) {
       if (input[i] == '\"') {
         //aspas podem ou nao marcar o fim do token

@@ -1,2 +1,11 @@
 #arquivo de entrada
 artigo.csv
+curto.csv
+
+#arquivos do banco de dados
+primaryIndex.dat
+secondaryIndex.dat
+data.dat
+
+#programas compilados
+upload

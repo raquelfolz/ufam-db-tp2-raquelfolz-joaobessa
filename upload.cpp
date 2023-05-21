@@ -43,7 +43,6 @@ std::vector<std::string> split(const std::string& input, char delimiter) {
       token = "";
     }
     else if (i < input.size()-3 and input.substr(i, 4) == "NULL") {
-      tokens.push_back("");
       i += 3;
     }
     else throw std:: invalid_argument(input); //so para testar
